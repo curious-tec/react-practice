@@ -1,0 +1,214 @@
+body{
+    
+   background-color: black;
+    
+}
+
+.App{
+    height:80vh ;
+    width: 150vh;
+    background-color: grey;
+    margin-top: 100px;
+    top: 50%;
+    margin-left: 200px;
+    
+}
+.App .pic img{
+    
+    display: inline;
+    height: 420px;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 4%;
+}
+.App .log{
+    background-color: white;
+    float: right;
+    position: relative;
+    display: inline;
+    height: 420px;
+    margin-right: 50px;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 3%;
+}
+.log img{
+height: 30px;
+display: inline;
+float:right;
+margin-right: 250px;
+margin-top: 5px;
+
+}
+.log .wel h2 {
+    color:black;
+    display: inline;
+    position: relative;
+    float: right;
+    margin-top: 38px;
+    left: 128px;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    font-family: monospace;
+    
+    
+}
+.log .below p {
+    position: relative;
+    display: inline;
+    float: right;
+    top:-36px;
+    left: -164px;  
+    font-family: monospace;
+    font-size: larger;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+}
+form{
+    display: inline;
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 65px;
+    font-family: monospace;
+    font-size:larger;
+  
+}
+ form  #eml{
+  border: none;  
+  border-bottom: 2px solid black;
+  width: 300px;
+  font-family: monospace;
+
+}
+
+
+
+form #psd{
+    border: none;  
+  border-bottom: 2px solid black;
+  width: 300px;
+  font-family: monospace;
+
+}
+.s{
+    position: relative;
+    display: inline;
+    left: -20px;
+}
+form #rmbr {
+position: relative;
+display: inline;
+top: 15px;
+
+}
+form #o{
+    position: relative;
+display: inline;
+top: 17px;
+
+}
+
+
+.reset-password-container {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: -1px;
+    position: relative;
+    left: -9px;
+    top: -10px;
+    word-spacing: -4px;
+    
+}
+.reset-password-container #z{
+    position: relative;
+    top:2px;
+}
+
+.forget-password {
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    top: 3px;
+    
+}
+.additional-login{
+  
+    display: flex;
+    float: right;
+    display: inline;
+    margin:-6px;
+    top: 167px;
+    left: -172px;
+    position: relative;
+    font-family: monospace;
+
+   
+}
+.main-login {
+    background-color: #000;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+.main-login a {
+    color: white;
+    text-decoration: none;
+}
+
+.google{
+    background-color:grey;
+    
+    width: 170px;
+    height: 23px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 15px;
+    padding: 5px;
+    
+}
+.google a{
+    text-decoration: none;
+}
+
+.google img {
+   
+    height: 15px;
+    position: relative;
+    float: left;
+    left: 20px;
+}
+.google p{
+    position: relative;
+    left: 15px;
+    top:-16px;
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+.signup{
+    position: relative;
+    float: right;
+    left: -220px;
+    top: -35px;
+}
+.signup a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-family: monospace;
+
+}
+@media screen and ( max-width:1000px) {
+    *{
+        width:100%;
+    }
+    
+}
